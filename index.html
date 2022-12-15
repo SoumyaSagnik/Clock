@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <i class="bi bi-brightness-high-fill" id="toggle-dark"></i>
+    <div class="clock">
+      <div class="clock-bg">
+        <img src="images/light.png" alt="Error.img" />
+      </div>
+      <div class="hour">
+        <span class="hr" id="hr"></span>
+      </div>
+      <div class="minute">
+        <span class="min" id="min"></span>
+      </div>
+      <div class="second">
+        <span class="sec" id="sec"></span>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
